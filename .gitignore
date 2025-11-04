@@ -7,8 +7,6 @@ node_modules/
 package-lock.json
 .DS_Store
 .cache
-.env
-.vscode
 .parcel-cache/
 *.orig
 *.tsbuildinfo
@@ -23,3 +21,4 @@ package-lock.json
 # Website
 /site/out
 .next
+config.bat
