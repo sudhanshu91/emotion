@@ -3,9 +3,9 @@
   "name": "benchmarks",
   "version": "0.8.28",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url .",
-    "run-benchmark": "node run.js"
+    "start": "node init && parcel src/index.html",
+    "build": "node init && parcel build src/index.html --public-url .",
+    "run-benchmark": "node init && node run.js"
   },
   "dependencies": {
     "@babel/core": "^7.18.5",
